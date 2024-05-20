@@ -6,16 +6,6 @@ const inter = Inter(
   { subsets: ["latin"] }
 );
 
-export const podvoka = Podkova({
-  subsets: ['latin'],
-  variable: '--font-podvoka',
-});
-
-export const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-montserrat',
-});
-
 <link rel="icon" href="/favicon.ico" sizes="any" />
 
 export const metadata: Metadata = {
@@ -29,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${podvoka.className} ${montserrat.className}`}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
