@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -15,19 +14,63 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.timeline {
+  @apply flex flex-wrap flex-col-reverse max-w-[80vw] relative mx-auto my-0 before:absolute before:w-0.5 before:h-full before:content-[""] before:bg-[color:var(--rosa)] before:-ml-px before:left-2/4;
+}
+.timeline__content-title {
+  @apply font-[normal] text-[40px] transition-[0.4s] box-border text-branco -mt-2.5 mb-0 mx-0 px-2.5 py-0;
+  font-family: var(--font2);
+}
+.timeline__content-desc {
+  @apply text-[15px] box-border text-[rgba(255,255,255,0.7)] font-[normal] leading-[25px] m-0;
+  font-family: var(--font3);
+}
+
+.timeline__content{
+  @apply flex flex-col gap-4;
+}
+@media only screen and (max-width: 767px) {
+  .timeline:before {
+    @apply left-10;
+  }
+}
+.timeline-item {
+  @apply transition-[0.5s] box-border w-[calc(50%_-_40px)] flex relative px-0 py-10 before:content-[attr(data-text)] before:tracking-[3px] before:w-full before:absolute before:text-[rgba(255,255,255,0.5)] before:text-[13px] before:mt-[-5px] before:opacity-0 before:right-[calc(-100%_-_56px)] before:pl-[15px] before:border-l-2 before:border-l-[rgba(255,255,255,0.5)] before:border-solid before:top-[70%];
+}
+.timeline-item:before {
+  font-family: "Pathway Gothic One", sans-serif;
+}
+.timeline-item:nth-child(even) {
+  @apply self-end before:text-right before:left-[calc(-100%_-_56px)] before:pl-0 before:pr-[15px] before:border-l-[none] before:border-r-2 before:border-r-[rgba(255,255,255,0.5)] before:border-solid before:right-auto;
+}
+@media only screen and (max-width: 767px) {
+  .timeline-item {
+    @apply self-baseline w-full pl-20 pr-[30px] pt-0 pb-[150px] before:text-center before:w-[60px] before:p-0 before:border-[none] before:left-2.5 before:top-[50px] last:pb-10;
+  }
+}
+.timeline__img {
+  @apply max-w-[60%] transition-[0.1s] m-5 hover:saturate-100;
+}
+.timeline-container {
+  @apply w-full relative transition-[0.3s] duration-[ease] delay-[0s] bg-fixed bg-cover px-0 py-20 before:absolute before:w-full before:h-full before:content-[""] before:left-0 before:top-0;
+}
+.timeline-container:before {
+  background: var(--cinza2);
+}
+.timeline-header {
+  @apply w-full text-center relative mb-20;
+}
+.timeline-header__title {
+  @apply text-branco text-[46px] font-[normal] m-0;
+  font-family: var(--font1);
+}
+.timeline-header__subtitle {
+  @apply text-[rgba(255,255,255,0.5)] text-base tracking-[5px] font-[normal] mt-2.5 mb-0 mx-0;
+  font-family: "Pathway Gothic One", sans-serif;
 }
