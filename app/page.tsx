@@ -11,9 +11,9 @@ export default function Home() {
       <Header />
       <div className="p-20 bg-cover flex flex-col items-center bg-greve">
         <div className="flex items-center flex-col flex-wrap gap-11 ">
-          <h1 className="text-4xl text-branco"> A corrente do pensamento!</h1>
+          <h1 className="text-4xl text-branco text-center"> A corrente do pensamento!</h1>
           <Divider />
-          <p className="text-xl text-branco">(...) O fato de uma multidão de seres humanos seja conduzida a pensar coerentemente e de
+          <p className="text-xl text-branco text-justify md:text-center">(...) O fato de uma multidão de seres humanos seja conduzida a pensar coerentemente e de
             maneira unitária a realidade presente é um fato "filosófico" bem mais importante e "original" do que a
             descoberta, por parte de um "gênio filosófico", de uma nova verdade que permaneça como patrimônio de
             pequenos grupos intelectuais"</p>
@@ -21,9 +21,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex shadow-2xl">
-        <Image src="/paulo-freire-pb.png" width={600} height={500} alt="paulofreire" id="paulofreire-d3" />
-        <div className="flex justify-between p-8 gap-8 bg-preto flex-col flex-wrap">
+      <div className="flex lg:flex-row flex-col shadow-2xl">
+        <Image src="/paulo-freire-pb.png" width="600" height={0} alt="paulofreire" id="paulofreire-d3" />
+        <div className="flex justify-between p-8 gap-8 bg-preto flex-col flex-wrap col-span-2 ">
           <div className="flex flex-col flex-nowrap gap-8">
             <h1 className="text-4xl text-branco">Quem foi Paulo Freire?</h1>
             <Divider />
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="flex items-center flex-row gap-4">
           <ul className="flex items-center justify-center gap-6 flex-row flex-wrap">
             <Link href="/proposta1" className="ancora-card">
-              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl h-96 w-96 hover:-translate-y-3 transition-all">
+              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl min-h-80 w-80 md:w-96 md:h-96 hover:-translate-y-3 transition-all">
                 <span className="flex items-center justify-center w-16 h-16 text-5xl  rounded-full text-preto bg-branco ">1</span>
                 <p className="text-3xl mt-2 text-branco break-word ">A arte e a educação decolonial</p>
                 <Divider />
@@ -52,7 +52,7 @@ export default function Home() {
             </Link>
 
             <Link href="/proposta2" className="ancora-card">
-              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl h-96 w-96 hover:-translate-y-3 transition-all">
+              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl min-h-80 w-80 md:w-96 md:h-96  hover:-translate-y-3 transition-all">
                 <span className="flex items-center justify-center w-16 h-16 text-5xl  rounded-full text-preto bg-branco ">2</span>
                 <p className="text-3xl mt-2 text-branco break-word ">Construindo um projeto de economia solidária</p>
                 <Divider />
@@ -61,7 +61,7 @@ export default function Home() {
             </Link>
 
             <Link href="/proposta3" className="ancora-card">
-              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl h-96 w-96 hover:-translate-y-3 transition-all">
+              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl min-h-80 w-80 md:w-96 md:h-96 hover:-translate-y-3 transition-all">
                 <span className="flex items-center justify-center w-16 h-16 text-5xl  rounded-full text-preto bg-branco ">3</span>
                 <p className="text-3xl mt-2 text-branco break-word ">Justiça,direito e periferias</p>
                 <Divider />

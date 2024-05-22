@@ -8,10 +8,10 @@ export default function Proposta3() {
       <Header />
       <div className="flex flex-col justify-center items-center px-12 bg-preto gap-5">
         <div className="flex items-center flex-col gap-5">
-          <h1 className="text-4xl text-branco">Justiça,direito e periferias</h1>
+          <h1 className="text-4xl text-branco text-center">Justiça,direito e periferias</h1>
           <Divider />
         </div>
-        <div className="p-10 flex flex-col items-center justify-center  w-3/5 rounded-lg  bg-cinza gap-5">
+        <div className="p-10 flex flex-col items-center justify-center  lg:w-3/5 w-full rounded-lg  bg-cinza gap-5">
           <p className="text-xl  text-branco indent-1 ">A arte e a educação colonial estiveram profundamente interligadas durante o período em que o colonialismo estava em vigor. A colonização frequentemente envolveu a imposição de valores culturais e sistemas de educação europeus às culturas e populações indígenas dos territórios colonizados. A arte, por sua vez, foi frequentemente usada como uma ferramenta para difundir esses valores e sistemas de educação.</p>
           <p className="text-xl  text-branco indent-1 ">Na maioria dos casos, os sistemas educacionais coloniais enfatizavam a supremacia da cultura europeia e a inferioridade das culturas locais. Os estudantes eram frequentemente ensinados em línguas europeias, aprendiam a história, a literatura e a arte europeias e eram doutrinados com os valores europeus, muitas vezes sob a justificativa de "civilizar" as populações locais.</p>
           <p className="text-xl  text-branco indent-1 ">A arte era frequentemente utilizada como um meio para transmitir esses valores e ideias. Na África, por exemplo, a arte colonial frequentemente enfatizava a superioridade da cultura europeia em relação às culturas locais. O Museu do Homem, em Paris, exibiu uma grande quantidade de arte africana, que foi apresentada como "primitiva" e "bárbara". Essa visão desvalorizante da arte africana ajudou a reforçar a ideia de que as culturas africanas eram inferiores à cultura europeia.</p>

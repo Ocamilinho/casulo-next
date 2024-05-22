@@ -51,7 +51,7 @@
 }
 @media only screen and (max-width: 767px) {
   .timeline-item {
-    @apply self-baseline w-full pl-20 pr-[30px] pt-0 pb-[150px] before:text-center before:w-[60px] before:p-0 before:border-[none] before:left-2.5 before:top-[50px] last:pb-10;
+    @apply self-baseline w-full pt-0 pb-[30px] before:text-center before:w-[60px] before:p-0 before:border-[none] before:left-2.5 before:top-[50px] last:pb-10;
   }
 }
 .timeline__img {
