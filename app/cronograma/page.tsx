@@ -8,14 +8,14 @@ export default function Cronograma() {
       <Header />
       <div className="text-center p-10 bg-greve shadow-xl shadow-rosa">
         <h2 className="timeline-header__title">Atividades do Coletivo Casulo</h2>
-        <h3 className="timeline-header__subtitle">AÇÕES DE COLETIVO</h3>
+        <h3 className="timeline-header__subtitle">Cursos, debates, rodas de conversa</h3>
       </div>
       <div className="w-full relative bg-fixed bg-cover bg-preto p-16 " id="timeline-1">
         <div className="flex flex-wrap flex-col-reverse relative max-x-96">
           <div className="timeline-item">
             <div className="timeline__content">
               <h2 className="timeline__content-title">2017, Maio</h2>
-              <p className="timeline__content-desc">Organização do Grupo de Pesquisa Culturas, Marxismo e Decolonialidade, embrião do atual GEPECD – Grupo de Estudos e Pesquisas Educação, Culturas e Decolonialidade, vinculado institucionalmente ao IFRJ. [Inserir link para o site DECOLONIALIDADE, do GEPECD]</p>
+              <p className="timeline__content-desc">Organização do Grupo de Pesquisa Culturas, Marxismo e Decolonialidade, embrião do atual GEPECD – Grupo de Estudos e Pesquisas Educação, Culturas e Decolonialidade, vinculado institucionalmente ao IFRJ.</p>
             </div>
           </div>
           <div className="timeline-item" >
@@ -192,12 +192,6 @@ export default function Cronograma() {
             </div>
           </div>
           <div className="timeline-item" >
-            <div className="timeline__content">
-              <h2 className="timeline__content-title">2021, Maio </h2>
-              <p className="timeline__content-desc">Dia 10 – Live sobre o tema “Análise de Conjuntura Nacional e Regional”, com a presença do deputado federal Marcelo Freixo. O evento contou com a audiência de 96 pessoas.</p>
-            </div>
-          </div>
-          <div className="timeline-item" >
             <div className="timeline__content"><Image className="timeline__Image" src="/cronologia/21.jpg" alt="imagem-cronograma-coletivo" width={width_image} height={0} />
               <h2 className="timeline__content-title">2021, Maio </h2>
               <p className="timeline__content-desc">Dia 22 – Participação na organização de mais uma edição do SEMINÁRIO PERMANENTE DE EDUCAÇÃO POPULAR, via Google Meet, sobre o tema: “Redes de solidariedade dos trabalhadores e trabalhadoras do campo e da cidade no combate à fome durante a pandemia”.</p>
@@ -327,12 +321,6 @@ export default function Cronograma() {
             <div className="timeline__content">
               <h2 className="timeline__content-title">2022, Abril</h2>
               <p className="timeline__content-desc">Dia 26 – Reunião remota com representantes da Escola Nacional Paulo Freire, vinculada ao MST, para articulação e estabelecimento de parcerias em cursos de educação popular. Nos comprometemos a enviar representação do Casulo ao curso de formação que será oferecido presencialmente pela escola, em julho, com nove dias de duração, em São Paulo, capital.</p>
-            </div>
-          </div>
-          <div className="timeline-item" >
-            <div className="timeline__content"><Image className="timeline__Image" src="/cronologia/36.jpg" alt="imagem-cronograma-coletivo" width={width_image} height={0} />
-              <h2 className="timeline__content-title">2022, Maio</h2>
-              <p className="timeline__content-desc">21 – Plenária de avaliação, organização e planejamento do COLETIVO CASULO. Auditório do IFRJ – Campus São Gonçalo.</p>
             </div>
           </div>
           <div className="timeline-item" >
