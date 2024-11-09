@@ -9,8 +9,8 @@ export default function Header() {
                 </div>
                 <ul className="flex justify-evenly gap-2 items-center">
                     <li className=" text-lg md:text-xl p-2 list-none text-branco hover:-translate-y-1 transition-all"><Link href="/sobreColetivo" className="">Sobre Nós</Link></li>
-                    <li className="text-lg md:text-xl p-2 list-none text-branco hover:-translate-y-1 transition-all hidden md:block"><Link href="/#d4" className="">Escola</Link></li>
-                    <li className=" text-lg md:text-xl p-2 list-none text-branco hover:-translate-y-1 transition-all"><Link href="/cronograma" className="">Cronograma</Link></li>
+                    <li className="text-lg md:text-xl p-2 list-none text-branco hover:-translate-y-1 transition-all hidden md:block"><Link href="/#d4" className="">Projetos</Link></li>
+                    <li className=" text-lg md:text-xl p-2 list-none text-branco hover:-translate-y-1 transition-all"><Link href="/cronograma" className="">Histórico</Link></li>
                 </ul>
             </header>
         </>
