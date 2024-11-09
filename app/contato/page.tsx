@@ -16,11 +16,11 @@ export default function Contato() {
                             <SocialLink href="https://www.facebook.com/groups/721949191548369/" platform="facebook" />
                             <SocialLink href="mailto:contato@coletivocasulo.com?subject=Nome - Assunto" platform="email" />
                             <SocialLink href="https://wa.me/5522999066017" platform="whatsapp" />
-                            <SocialLink href="bluesky_links" platform="bluesky" />
-                            <SocialLink href="bluesky_links" platform="instagram" />
-                            <SocialLink href="bluesky_links" platform="youtube" />
-                            <SocialLink href="bluesky_links" platform="threads" />
-                            <SocialLink href="bluesky_links" platform="twitter" />
+                            <SocialLink href="https://bsky.app/profile/casulogepecd.bsky.social" platform="bluesky" />
+                            <SocialLink href="https://www.instagram.com/casulo.gepecd/" platform="instagram" />
+                            <SocialLink href="https://www.youtube.com/@coletivocasulo8559" platform="youtube" />
+                            <SocialLink href="https://www.threads.net/@casulo.gepecd" platform="threads" />
+                            <SocialLink href="https://x.com/CasuloColetivo" platform="twitter" />
                         </div>
                     </div>
                 </div>
