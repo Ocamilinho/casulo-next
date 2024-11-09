@@ -14,7 +14,7 @@ export default function SobreColetivo() {
 							<div className="flex flex-col flex-nowrap gap-8">
 								<h1 className="text-4xl text-branco">Quem somos?</h1>
 								<Divider />
-								<p className="text-xl text-branco">O Coletivo Casulo não se constituiu para ser uma instituição burocrática incorporada a dinâmica da sociedade civil brasileira, com estatuto e regras rigidamente definidas. É um Coletivo que vive sua historicidade nessa sociedade e, nela e partir dela, busca sua ampliação e posicionamento na conjuntura, defendendo políticas que não sejam soluções técnicas, mas que impulsionou organizações democráticas de âmbito comunitário</p>
+								<p className="text-xl text-branco">Coletivo Casulo: coletivo de militantes que atuam no campo da educação popular e da formação política de base, assim como na organização das comunidades periféricas. Organizado no final de 2018, na Região Metropolitana do Rio de Janeiro, tem desenvolvido desde então diversos projetos, cursos, oficinas, palestras, debates e rodas de conversa sobre temas de interesse da classe trabalhadora numa perspectiva socialista e interseccional – classista, de gênero e antirracista –, seguindo a pedagogia e a metodologia freiriana.</p>
 								<div className="inter">
 									<a href="./downloads-files/manifesto.pdf" className="text-preto" download><button className="p-5 text-xl w-54 border-0 rounded-lg bg-rosa text-branco">Entenda Mais!</button></a>
 								</div>
