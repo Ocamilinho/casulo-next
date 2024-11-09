@@ -65,6 +65,13 @@ export default function Contato() {
                                 </div>
                             </a>
 
+                            <a href="bluesky_links" target="_blank" rel="noreferrer noopener">
+                                <div className="w-32 h-32 flex p-5 items-center flex-col justify-between bg-cinza shadow-md rounded-lg hover:translate-y-1 transition-all">
+                                    <FaTwitter color="white" size={64}/><br />
+                                    <h4 className="font-light text-branco">Twitter</h4>
+                                </div>
+                            </a>
+
                         </div>
                     </div>
                 </div>
