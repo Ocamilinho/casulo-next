@@ -8,7 +8,7 @@ import Integrante from "@/components/quem-somos/Integrante";
 const integrantes = [
     {
         "name": "Fernando Brame",
-        "description": "Professor de Sociologia. Mestre e doutor em Ciências Sociais (UERJ). Trabalha no IFRJ, Campus Nilópolis.",
+        "description": "Professor de Sociologia. Mestre e doutor em Ciências Sociais (UERJ). Trabalha no IFRJ, Campus Nilópolis. Integrou o Conselho Fiscal do SINTIFRJ – Sindicato das/os Trabalhadoras/es do IFRJ, base do SINASEFE – Sindicato Nacional dos Servidores Federais da Educação Básica, Profissional e Tecnológica.",
         "imageSrc": "/integrantes/fernandobrame.jpg"
     },
     {
@@ -23,37 +23,36 @@ const integrantes = [
     },
     {
         "name": "Luiz Claudio da Silva",
-        "description": "Professor de Matemática. Trabalhou na SEEDUC/RJ em Maricá, São Gonçalo e Niterói. Doutor em Educação (UFF) e Mestre em Educação Matemática (USU).",
+        "description": " Professor de Matemática. Trabalhou na SEEDUC/RJ em Maricá, São Gonçalo e Niterói. Atuou como docente do curso de licenciatura em matemática da UFF/Pádua. Doutor em Educação (UFF) e Mestre em Educação Matemática (USU).",
         "imageSrc": "/integrantes/luizclaudio.jpg"
     },
     {
         "name": "Maria Ortelia Moraes",
-        "description": "Professora de História. Atua na rede privada de São Gonçalo. Atualmente, compõe a Secretaria de Assuntos Educacionais da FETEERJ e é diretora do SINPRO - Sindicato dos Professores de Niterói e São Gonçalo.",
+        "description": "Professora de História. Atua na rede privada de São Gonçalo. Atualmente, compõe a Secretaria de Assuntos Educacionais da FETEERJ e é diretora do SINPRO - Sindicato dos Professores de Niterói e São Gonçalo https://sinpronitregiao.org.br/",
         "imageSrc": "/integrantes/mariaortelia.jpg"
     },
     {
         "name": "Paulo Gomes Coutinho",
-        "description": "Professor de História. Especialista (UFRJ) e Mestre em Educação (UERJ). Atua na SEEDUC/RJ e na rede municipal do Rio de Janeiro, em escolas da Zona Oeste.",
-        "imageSrc": "/integrantes/paulo.jpg"
+        "description": "Professor de História. Especialista (UFRJ) e Mestre em Educação (UERJ). Atua na SEEDUC/RJ e na rede municipal do Rio de Janeiro, em escolas da Zona Oeste. Tem militância sindical no SEPE/RJ e em Coletivos de Educação Popular na ZO da cidade do Rio."
     },
     {
         "name": "Ricardo Cesar Rocha da Costa",
-        "description": "Professor de Sociologia. Mestre em Ciência Política (UFF) e doutor em Serviço Social (UERJ). Trabalha no IFRJ, Campus Arraial do Cabo.",
+        "description": "Professor de Sociologia. Mestre em Ciência Política (UFF) e doutor em Serviço Social (UERJ). Trabalha no IFRJ, Campus Arraial do Cabo. Atuou na coordenação do SINTIFRJ – Sindicato das/os Trabalhadoras/es do IFRJ, base do SINASEFE – Sindicato Nacional dos Servidores Federais da Educação Básica, Profissional e Tecnológica.",
         "imageSrc": "/integrantes/ricardo.jpg"
     },
     {
         "name": "Roberto Carlos Costa Silva",
-        "description": "Professor de História. Especialista em Ensino de Histórias e Culturas Africanas e Afro-brasileiras (IFRJ), com atuação na Baixada Fluminense.",
+        "description": " Professor de História. Especialista em Ensino de Histórias e Culturas Africanas e Afro-brasileiras (IFRJ), com atuação na Baixada Fluminense.",
         "imageSrc": "/integrantes/roberto.jpg"
     },
     {
         "name": "Sérgio Oliveira",
-        "description": "Professor de Filosofia. Especialista em Educação e em História (UFF) e Gestão em Administração Pública (UFJF). Mestre em História Social do Território (UERJ/FFP).",
+        "description": "Professor de Filosofia. Especialista em Educação e em História (UFF) e Gestão em Administração Pública (UFJF). Mestre em História Social do Território (UERJ/FFP). Trabalhou na SEEDUC/RJ, FAETEC e rede privada de ensino em escolas de Niterói e São Gonçalo. Atuou na direção do SINPRO - Niterói e Região.",
         "imageSrc": "/integrantes/sergio.jpg"
     },
     {
         "name": "Simone Lauar",
-        "description": "Comunicadora popular. Cria de Vila Isabel, mas formada no Complexo da Maré como jornalista. Uma das fundadoras do Jornal Coletivo Garotas da Maré.",
+        "description": "Comunicadora popular. Cria de Vila Isabel, mas formada no Complexo da Maré como jornalista. Uma das fundadoras do Jornal Coletivo Garotas da Maré. Integra a coordenação de mídia do Coletivo Casulo..",
         "imageSrc": "/integrantes/simone.jpg"
     },
     {
