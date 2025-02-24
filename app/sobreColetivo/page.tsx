@@ -33,7 +33,8 @@ const integrantes = [
     },
     {
         "name": "Paulo Gomes Coutinho",
-        "description": "Professor de História. Especialista (UFRJ) e Mestre em Educação (UERJ). Atua na SEEDUC/RJ e na rede municipal do Rio de Janeiro, em escolas da Zona Oeste. Tem militância sindical no SEPE/RJ e em Coletivos de Educação Popular na ZO da cidade do Rio."
+        "description": "Professor de História. Especialista (UFRJ) e Mestre em Educação (UERJ). Atua na SEEDUC/RJ e na rede municipal do Rio de Janeiro, em escolas da Zona Oeste. Tem militância sindical no SEPE/RJ e em Coletivos de Educação Popular na ZO da cidade do Rio.",
+        "imageSrc": "/integrantes/paulo.jpg"
     },
     {
         "name": "Ricardo Cesar Rocha da Costa",
