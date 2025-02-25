@@ -2,50 +2,53 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import TimelineItem from "@/components/cronograma/TimelineItem";
-import * as Papa from 'papaparse';
+import { Data } from "@/public/data-timeline";
+import { v4 as uuidv4 } from 'uuid'; 
 
-type TimelineCsv = {
+type Timeline = {
+  id: string;
   title: string;
   desc: string;
-  imageUrl: string;
+  imageUrl?: string;
   date: Date;
 };
 
 export default function Cronograma() {
-  const [timelineData, setTimelineData] = useState<TimelineCsv[]>([]);
+  const [timelineData, setTimelineData] = useState<Timeline[]>([]);
   const [years, setYears] = useState<number[]>([]);
   const [selectedYear, setSelectedYear] = useState<number | null>(null); 
-  useEffect(() => {
-    Papa.parse("/timeline.csv", {
-      download: true,
-      header: true,
-      dynamicTyping: true,
-      complete: (result) => {
-        const formattedData = result.data.map((item: any) => {
-          const parsedDate = new Date(item.date);
-          const validDate = parsedDate instanceof Date && !isNaN(parsedDate.getTime()) ? parsedDate : new Date();
-          return {
-            ...item,
-            date: validDate,
-          };
-        });
+  const [filteredData, setFilteredData] = useState<Timeline[]>([]);
 
-        setTimelineData(formattedData);
-        const extractedYears = Array.from(
-          new Set(formattedData.map(item => item.date.getFullYear()))
-        );
-        setYears(extractedYears.sort((a, b) => a - b));
-      },
-      error: (err) => {
-        console.error("Erro ao ler CSV:", err);
-      },
-    });
+  useEffect(() => {
+    const parsedData = Data.map((item: any) => ({
+      id: uuidv4(), 
+      title: item.title,
+      desc: item.desc,
+      imageUrl: item.imageUrl,
+      date: new Date(item.date),
+    })).filter(item => !isNaN(item.date.getTime())) as Timeline[];
+
+    const sortedData = parsedData.sort((a, b) => a.date.getTime() - b.date.getTime());
+    setTimelineData(sortedData);
+    setFilteredData(sortedData);
+    const uniqueYears = Array.from(new Set(sortedData.map(item => item.date.getFullYear()))).sort((a, b) => a - b);
+    setYears(uniqueYears);
   }, []);
-  const filteredData = selectedYear
-    ? timelineData.filter(item => item.date.getFullYear() === selectedYear)
-    : timelineData; 
+
+  useEffect(() => {
+    if (selectedYear !== null) {
+      const newFilteredData = timelineData.filter(item => item.date.getFullYear() === selectedYear);
+      console.log(`Filtered data for year ${selectedYear}:`, newFilteredData); // Debug log
+      setFilteredData(newFilteredData);
+    } else {
+      setFilteredData(timelineData);
+    }
+  }, [selectedYear, timelineData]);
+
+  const filterData = (year: number | null) => {
+    setSelectedYear(year);
+  };
 
   return (
     <>
@@ -59,37 +62,36 @@ export default function Cronograma() {
           {years.map((year) => (
             <li
               key={year}
-              className={`text-xl font-semibold text-branco cursor-pointer ${selectedYear === year ? 'text-yellow-400' : ''}`}
-              onClick={() => setSelectedYear(year)}
+              className={`text-xl text-branco cursor-pointer ${selectedYear === year ? 'font-bold' : ''}`}
+              onClick={() => filterData(year)}
             >
               {year}
             </li>
           ))}
           <li
-            className={`text-xl font-semibold text-branco cursor-pointer ${selectedYear === null ? 'text-yellow-400' : ''}`}
-            onClick={() => setSelectedYear(null)}
+            className={`text-xl font-semibold text-branco cursor-pointer ${selectedYear === null ? 'font-bold' : ''}`}
+            onClick={() => filterData(null)}
           >
             Todos
           </li>
         </ul>
       </div>
-      <div className="w-full relative bg-fixed bg-cover bg-preto p-16 min-h-screen" id="timeline-1" >
+      <div className="w-full relative bg-fixed bg-cover bg-preto p-16 min-h-screen" id="timeline-1">
         <div className="flex flex-wrap flex-col-reverse relative gap-20 flex-grow">
           {filteredData.length > 0 ? (
-            filteredData.map((item, index) => (
+            filteredData.map((item) => (
               <TimelineItem
-                key={index}
+                key={item.id} 
                 desc={item.desc}
                 date={item.date}
-                imageUrl={item.imageUrl}
+                imageUrl={item.imageUrl || ''} 
               />
             ))
           ) : (
-            <p className="text-branco">Carregando cronograma...</p> // Mensagem enquanto os dados não são carregados
+            <p className="text-branco">Carregando cronograma...</p>
           )}
         </div>
       </div>
-
       <Footer />
     </>
   );
