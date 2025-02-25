@@ -44,6 +44,24 @@ export const Data = [
       "date": "2019-12-10"
     },
     {
+      "title": "Maio, 2019",
+      "desc": "Dia 01 –  Participação na organização do Ato Público, no Alcântara/São Gonçalo, em Defesa dos Direitos da Classe Trabalhadora:",
+      "imageUrl": "./cronologia/2019/umdemaio.svg",
+      "date": "2019-05-01"
+    },
+    {
+      "title": "Abril, 2019",
+      "desc": "Dia 27 – Organização, em parceria com o Grupo de Pesquisa e o Projeto OPP COMPERJ, de palestra e debate tendo como tema da democracia na América Latina e a conjuntura vivida pela Venezuela, com a presença do Prof, Eduardo Scheidt (UERJ/FFP).",
+      "imageUrl": "./cronologia/2019/vinteesetedeabril.svg",
+      "date": "2019-04-27"
+    },
+    {
+      "title": "Março, 2019",
+      "desc": "Dia 23 – Participação na organização de Ato Público, em São Gonçalo, em protesto contra a Reforma da Previdência em curso naquele momento.",
+      "imageUrl": "./cronologia/2019/vinteetresdemarco.svg",
+      "date": "2019-04-27"
+    },
+    {
       "title": "Março, 2022",
       "desc": " A partir da pandemia do Coronavírus, após certa paralisação inicial, em função do impacto provocado em toda a população, as atividades do coletivo precisaram ser replanejadas e redirecionadas prioritariamente para encontros remotos, mas que geraram as iniciativas relacionadas a seguir. Foram intensificadas também a realização de debates online voltados para o trabalho de formação política e de cunho cultural, organizados principalmente pelo COLETIVO DE COLETIVOS e transmitidos através da Rádio WEB Censura Livre. Como se trata de uma lista extensa de atividades, listamos neste documento somente as ações organizadas sob responsabilidade direta do Coletivo Casulo.",
       "imageUrl": "/cronologia/8.jpg",
@@ -74,7 +92,7 @@ export const Data = [
     {
       "title": "Julho, 2020",
       "desc": " Dia 29 – Live “A Solidariedade Coletiva no Enfrentamento da Pandemia e da Lógica Neoliberal”, com o Padre Júlio Lancellotti. Disponível aqui!",
-      "imageUrl": "/cronologia/13.jpg",
+      "imageUrl": "/cronologia/13.png",
       "date": "2020-06-29"
     },
     {
@@ -108,23 +126,23 @@ export const Data = [
     {
       "title": "Momento I (06/11)",
       "desc": "Atividade I: A Solidariedade como instrumento da luta política: reflexões a partir de resistências populares em tempos de pandemia, com Flavia Braga Vieira (UFRRJ), Javier Walter Ghibaudi (UFF), Júlio Cesar Vieira (CCOB) e José Manuel Faria (Casulo).Disponível aqui!:",
-      "date": "2024-06-11"
+      "date": "2019-06-11"
     },
     {
       "title": "Momento II (06/11)",
       "desc": "Atividade II: “Economia Solidária: Painel - com a apresentação de questões e relatos de experiências”, com Adalton Mendonça (Prefeitura de Maricá), Marcos Rodrigo (Comunidade do Morro do Preventório, Charitas), José Luís Abreu Dutra (Coletivo Casulo) e Sérgio Oliveira (Coletivo Casulo). Disponível aqui!",
-      "date": "2024-06-11"
+      "date": "2020-06-11"
     },
     {
       "title": "Momento III (07/11)",
       "desc": "Atividade III: “As ações dos coletivos e das redes de solidariedade nas periferias”, com a presença de diversas lideranças e representantes das ações do Coletivo de Coletivos, assim como de diversas outras iniciativas, como Arraial do Cabo/RJ e Lauro de Freitas/BA, num total de 13 comunicações relatando as experiências de movimentos sociais, associações e coletivos políticos, com a presença de 31 militantes. Disponível aqui! ",
-      "date": "2024-07-11"
+      "date": "2020-07-11"
     },
     {
       "title": "2021, Fevereiro ",
       "desc": "21 – Realização da Roda de Conversa online “A importância do SUS e da vacinação”, com a participação da sanitarista Bianca Leandro (EPSJV /FIOCRUZ).",
       "imageUrl": "/cronologia/17.jpg",
-      "date": "2021-02-21"
+      "date": "2020-02-21"
     },
     {
       "title": "2021, Março ",
@@ -419,5 +437,281 @@ export const Data = [
       "desc": "25 – Encontro presencial do GEPECD/CASULO sobre o tema \"As contribuições do pensamento freiriano ao enfrentamento da lógica do mundo neoliberal na América Latina, com a convidada Profª Inny Bello Accioly (UFF/FE)\" Local: Auditório do IFRJ, Neves, São Gonçalo",
       "imageUrl": "/cronologia/2023/12.jpg",
       "date": "23-11-25"
+    }, 
+    // 2024
+
+
+    {
+      "title": "2024, Janeiro",
+      "desc": "Dias 27 e 28 – Encontro presencial da Coordenação em Sampaio Corrêa, Saquarema/RJ.",
+      "imageUrl": "/cronologia/2024/01.jpg",
+      "date": "2024-01-27"
+    },
+    {
+      "title": "2024, Fevereiro",
+      "desc": "Dia 17 – Visita à sede da Escola Nacional Paulo Freire, em São Paulo, capital.",
+      "imageUrl": "/cronologia/2024/02.jpg",
+      "date": "2024-02-17"
+    },
+    {
+      "title": "2024, Fevereiro",
+      "desc": "Dia 18 – Visita de apoio ao Pe. Júlio Lancelotti, na Mooca, São Paulo/SP.",
+      "imageUrl": "/cronologia/2024/03.jpg",
+      "date": "2024-02-18"
+    },
+    {
+      "title": "2024, Março",
+      "desc": "Dia 01 - Participação ativa na CAMPANHA 21 DIAS DE ATIVISMO CONTRA O RACISMO com a realização de POSTAGENS VIRTUAIS por 21 dias consecutivos. Na imagem, nossa homenagem ao Aderaldo Gil, militante histórico do movimento negro e professor de História falecido precocemente em 2023. Para conhecer as demais postagens, acesse: https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw==",
+      "imageUrl": "/cronologia/2024/04.jpg",
+      "date": "2024-03-01"
+    },
+    {
+      "title": "2024, Março",
+      "desc": "Dia 14 – Homenagem nas redes digitais à companheira Marielle Franco, pela passagem dos seis anos do seu assassinato covarde, no Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/05.jpg",
+      "date": "2024-03-14"
+    },
+    {
+      "title": "2024, Março",
+      "desc": "Dia 20 – Organização do DEBATE “Diálogos no Feminino - A luta antirracista, uma abordagem interseccional”, sob a coordenação de Tânia Correia, na FFP/UERJ, como uma das atividades do CASULO e do GEPECD para a Campanha 21 Dias de Ativismo contra o Racismo.",
+      "imageUrl": "/cronologia/2024/06.jpg",
+      "date": "2024-03-20"
+    },
+    {
+      "title": "2024, Março",
+      "desc": "Dia 23 – Encontro remoto do GEPECD/CASULO para o debate/estudo da obra “Introdução ao estudo do método em Karl Marx”, de José Paulo Netto.",
+      "imageUrl": "/cronologia/2024/07.jpg",
+      "date": "2024-03-23"
+    },
+    {
+      "title": "2024, Março",
+      "desc": "Dia 27 – Reunião no IFRJ, Campus São Gonçalo. Pauta: 3ª edição do Curso Pré-Técnico, parceria CASULO / IFRJ-CSG / UERJ-FFP.",
+      "date": "2024-03-27"
+    },
+    {
+      "title": "2024, Março",
+      "desc": "Dia 29 – Encontro presencial de avaliação/planejamento da Coordenação. Local: sede do SINPRO – Niterói e Região.",
+      "imageUrl": "/cronologia/2024/09.jpg",
+      "date": "2024-03-29"
+    },
+    {
+      "title": "2024, Abril",
+      "desc": "Dia 1º - Postagens nas redes digitais recordando a passagem dos 60 Anos do Golpe Empresarial-Militar de 1964: DITADURA NUNCA MAIS!",
+      "imageUrl": "/cronologia/2024/10.jpg",
+      "date": "2024-04-01"
+    },
+    {
+      "title": "2024, Abril",
+      "desc": "Dia 18 – QUINTAS POLÍTICO-CULTURAIS. Debate remoto transmitido pela RÁDIO WEB CENSURA LIVRE sobre o SISTEMA ÚNICO DE SAÚDE com a presença do convidado Dr. Luiz Antônio Santini. Mediação: José Manuel e Sérgio Oliveira.",
+      "imageUrl": "/cronologia/2024/11.jpg",
+      "date": "2024-04-18"
+    },
+    {
+      "title": "2024, Abril",
+      "desc": "Dia 19 – MARCHA DIGITAL ABRIL INDÍGENA, organizada pelo Casulo/GEPECD a partir de diversas postagens sobre a questão indígena nas redes digitais a partir do Instagram. Confira as diversas postagens em: https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw== ",
+      "imageUrl": "/cronologia/2024/12.jpg",
+      "date": "2024-04-19"
+    },
+    {
+      "title": "2024, Abril",
+      "desc": "Dia 27 – Encontro remoto do GEPECD/Casulo. Debate sobre “Gênero” com base na obra “Sobre o suicídio”, de Karl Marx. Acesse a gravação em: https://mail.google.com/mail/u/2/#label/Grava%C3%A7%C3%B5es/FMfcgzQVzFSJQZcmGljzlNCTSbMnxmXs?projector=1",
+      "imageUrl": "/cronologia/2024/13.jpg",
+      "date": "2024-04-27"
+    },
+    {
+      "title": "2024, Maio",
+      "desc": "Dia 1º - Participação do CASULO/GEPECD nas lutas da classe trabalhadora por ocasião da passagem de mais um PRIMEIRO DE MAIO. A imagem reproduz uma das postagens feitas nessa data.",
+      "imageUrl": "/cronologia/2024/14.jpg",
+      "date": "2024-05-01"
+    },
+    {
+      "title": "2024, Maio",
+      "desc": "Participação do Coletivo Casulo e do GEPECD na Campanha de arrecadação financeira para 60 famílias de atingidos pela tragédia climática em Canoas, na Região Metropolitana de Porto Alegre, Rio Grande do Sul.",
+      "imageUrl": "/cronologia/2024/15.jpg",
+      "date": "2024-05-01"
+    },
+    {
+      "title": "2024, Maio",
+      "desc": "Dia 25 - Encontro remoto do GEPECD/Casulo. Continuidade do debate sobre “Gênero” com base em Marx e no artigo “Igualdade de gênero”, de Heather Brown. Acesse em https://drive.google.com/file/d/1UOsmn0WUCUKQfa2V1RiI9HSslMVjZX8e/view ",
+      "imageUrl": "/cronologia/2024/16.jpg",
+      "date": "2024-05-25"
+    },
+    {
+      "title": "2024, Maio",
+      "desc": "Dia 27 – Participação no lançamento da Campanha do Professor Josemar (PSOL) a Prefeito de São Gonçalo, no Clube Mauá, Centro da cidade.2024, Maio",
+      "imageUrl": "/cronologia/2024/17.jpg",
+      "date": "2024-05-27"
+    },
+    {
+      "title": "2024, Maio",
+      "desc": "Dia 28 – Organização, juntamente com a Frente de Desenvolvimento Sustentável e Resistência Democrática de São Gonçalo (FDSRD-SG), de debate com pré-candidatas a vereadoras de São Gonçalo, no Sindicato dos Trabalhadores da Indústria da Construção Civil, Centro da cidade.",
+      "imageUrl": "/cronologia/2024/18.jpg",
+      "date": "2024-05-28"
+    },
+    {
+      "title": "2024, Junho",
+      "desc": "Dia 15 – Cartaz de convocação da Reunião Ampliada do Coletivo de Coletivos, programada para o Centro Cultural Octávio Brandão (CCOB), em Maria da Graça, cidade do Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/19.jpg",
+      "date": "2024-06-15"
+    },
+    {
+      "title": "2024, Junho",
+      "desc": "Dia 17– Organização de debate na UERJ/FFP sobre o tema DIÁLOGOS SOBRE A SAÚDE PÚBLICA, com o lançamento do livro “SUS: lutas e conquistas da sociedade brasileira”, de autoria do Dr. Luiz Antonio Santini e do jornalista Clovis Bulcão.",
+      "imageUrl": "/cronologia/2024/20.jpg",
+      "date": "2024-06-17"
+    },
+    {
+      "title": "2024, Junho",
+      "desc": "Dia 20 – Plenária Estadual da Cúpula dos Povos.",
+      "imageUrl": "/cronologia/2024/21.jpg",
+      "date": "2024-06-20"
+    },
+    {
+      "title": "2024, Junho",
+      "desc": "Dia 23 – Encontro da Coordenação para debate sobre a mobilização da Juventude com a convidada Carla Santos, ex-presidenta nacional da UBES – União Brasileira dos Estudantes Secundaristas, doutoranda em Literaturas Africanas, atualmente realizando intercâmbio acadêmico em Moçambique, no continente africano.",
+      "imageUrl": "/cronologia/2024/22.jpg",
+      "date": "2024-06-23"
+    },
+    {
+      "title": "2024, Junho",
+      "desc": "Dia 24 – Reunião do Coletivo de Coletivos. Local: Centro Cultural Octávio Brandão (CCOB), em Maria da Graça, cidade do Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/23.jpg",
+      "date": "2024-06-24"
+    },
+    {
+      "title": "2024, Junho",
+      "desc": "Dia 26 - Participação do Casulo no processo de formulação do Programa de Governo para a Educação do candidato a Prefeito de São Gonçalo, Prof. Josemar (PSOL).",
+      "imageUrl": "/cronologia/2024/24.jpg",
+      "date": "2024-06-26"
+    },
+    {
+      "title": "2024, Junho",
+      "desc": "Dia 29 - Encontro remoto do GEPECD/Casulo. Primeiro debate sobre o tema “Marx e a democracia”, com leituras/estudo das obras “Sobre a questão judaica” e o artigo de Angela Davis para o livro “Democracia para quem?”. A gravação pode ser acessada em: https://drive.google.com/file/d/1jSIywVtufrqplumhCtV-JEXFGjrIMl-C/view?usp=sharing ",
+      "imageUrl": "/cronologia/2024/25.jpg",
+      "date": "2024-06-29"
+    },
+    {
+      "title": "2024, Julho",
+      "desc": "Lançamento do Boletim 1 do Coletivo de Coletivos.",
+      "imageUrl": "/cronologia/2024/26.jpg",
+      "date": "2024-07-01"
+    },
+    {
+      "title": "2024, Julho",
+      "desc": "Dia 01 – Início do Projeto de Formação PEDAGOGIA DA AUTONOMIA: ENCONTROS ONLINE PARA ESTUDO E PRÁTICA da obra de Paulo Freire.",
+      "imageUrl": "/cronologia/2024/27.jpg",
+      "date": "2024-07-01"
+    },
+
+    
+    //
+
+    {
+      "title": "2024, Julho",
+      "desc": "Dia 17 – Participação, juntamente com o Coletivo de Coletivos, do Ato Público contra a Privatização da CEDAE.",
+      "imageUrl": "/cronologia/2024/28.jpg",
+      "date": "2024-07-17"
+    },
+    {
+      "title": "2024, Julho",
+      "desc": "Dia 20 – Atividade no Centro Cultural Casa Tucum, espaço voltado para as artes indígenas. Rua do Rosário, Centro do Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/29.jpg",
+      "date": "2024-07-20"
+    },
+    {
+      "title": "2024, Julho",
+      "desc": "Dia 31 – Participação em debate organizado pela Frente de Desenvolvimento Sustentável e Resistência Democrática de São Gonçalo (FDSRD-SG) sobre a conjuntura eleitoral do município. O Coletivo Casulo é fundador e integrante da organização.",
+      "imageUrl": "/cronologia/2024/30.jpg",
+      "date": "2024-07-31"
+    },
+    {
+      "title": "2024, Agosto",
+      "desc": "Dia 04 – Encontro presencial de avaliação/planejamento da Coordenação no Centro de São Gonçalo.",
+      "imageUrl": "/cronologia/2024/31.jpg",
+      "date": "2024-08-04"
+    },
+    {
+      "title": "2024, Agosto",
+      "desc": "Cartaz de divulgação da 3ª edição do Curso Preparatório Pré-Técnico, organizado em parceria pelo IFRJ-Campus São Gonçalo, UERJ/FFP e Coletivo Casulo.",
+      "imageUrl": "/cronologia/2024/32.jpg",
+      "date": "2024-08-01"
+    },
+    {
+      "title": "2024, Agosto",
+      "desc": "Dia 14 – Organização e participação na Caminhada BASTA DE VIOLÊNCIA NAS COMUNIDADES. Nas imagens, o cartaz e o documento da convocatória.",
+      "imageUrl": "/cronologia/2024/33.jpg",
+      "date": "2024-08-14"
+    },
+    {
+      "title": "2024, Agosto",
+      "desc": "Dia 22 – Organização do Quintas Político-Culturais com o deputado federal Tarcísio Motta (PSOL), candidato a Prefeito do Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/34.jpg",
+      "date": "2024-08-22"
+    },
+    {
+      "title": "2024, Agosto",
+      "desc": "Dia 31 - Encontro remoto do GEPECD/Casulo. Segundo debate sobre o tema 'Marx e a democracia', com leituras/estudo das obras 'Crítica ao Programa de Gotha' e o artigo de Patricia Hill Collins para o livro 'Democracia para quem?'.",
+      "imageUrl": "/cronologia/2024/35.png",
+      "date": "2024-08-31"
+    },
+    {
+      "title": "2024, Setembro",
+      "desc": "Dia 07 – Grito dos Excluídos, Centro do Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/36.jpg",
+      "date": "2024-09-07"
+    },
+    {
+      "title": "2024, Setembro",
+      "desc": "Dia 09 – Visita ao Coletivo Militantes em Cena, Botafogo, Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/37.jpg",
+      "date": "2024-09-09"
+    },
+    {
+      "title": "2024, Setembro",
+      "desc": "Dia 14 - Convocatória para o ATO SUBURBANO EM DEFESA DO HOSPITAL DE BONSUCESSO, ocorrido na Praça das Nações, Bonsucesso, Rio de Janeiro.",
+      "imageUrl": "/cronologia/2024/38.jpg",
+      "date": "2024-09-14"
+    },
+    {
+      "title": "2024, Setembro",
+      "desc": "Dia 19 - Participação na inauguração do Laboratório de Fazimentos no Museu Darcy Ribeiro. Na foto, representantes do Casulo, Roberto Carlos e Ines Petereit, com Carolina Potiguara.",
+      "imageUrl": "/cronologia/2024/39.jpg",
+      "date": "2024-09-19"
+    },
+    {
+      "title": "2024, Setembro",
+      "desc": "Manifesto de apoio aos estudantes da UERJ, ao deputado federal Glauber Braga (PSOL/RJ) e aos demais militantes que foram presos na ocasião, em mais um ato de violência praticado pelo Governo estadual contra os estudantes, no dia 20 deste mês.",
+      "imageUrl": "/cronologia/2024/40.jpg",
+      "date": "2024-09-20"
+    },
+    {
+      "title": "2024, Setembro",
+      "desc": "Dia 27 – Participação no Caruru da Gratidão, em memória da educadora antirracista Azoilda Loretto Trindade (Zó). Local: Museu Casa Bumba Meu Boi, em Sepetiba, Zona Oeste do Rio de Janeiro. O Coletivo Casulo compôs o Núcleo Gestor na construção da atividade, desde a organização, a logística e o apoio financeiro. O vídeo produzido na ocasião do evento conta com diversos depoimentos, dentre eles os de Tânia Correia e Sergio Oliveira como representantes do Casulo. Pode ser acessado em: https://drive.google.com/file/d/1B6IjOPVPXmBYNkSXfsqtzVFVsvpSMYky/view",
+      "imageUrl": "/cronologia/2024/41.jpg",
+      "date": "2024-09-27"
+    },
+    {
+      "title": "2024, Setembro",
+      "desc": "Dia 28 - Encontro presencial do GEPECD/Casulo. Terceiro debate sobre o tema 'Marx e a democracia', com leituras/estudo das obras 'O 18 Brumário de Luís Bonaparte' e o artigo de Silvia Federici para o livro 'Democracia para quem?'. Local: Auditório do IFRJ, Neves, São Gonçalo.",
+      "imageUrl": "/cronologia/2024/42.jpg",
+      "date": "2024-09-28"
+    },
+    {
+      "title": "2024, Outubro",
+      "desc": "Dia 26 - Encontro presencial de avaliação/planejamento da Coordenação. Presença do Dr. Luiz Antônio Santini na pauta Análise de Conjuntura. Local: Sede do SINPRO - Niterói e Região.",
+      "imageUrl": "/cronologia/2024/43.jpg",
+      "date": "2024-10-26"
+    },
+    {
+      "title": "2024, Outubro",
+      "desc": "Dia 31 – QUINTAS POLÍTICO-CULTURAIS sobre o tema 'A luta antirracista e os 50 anos do IPCN', com o militante do movimento negro e professor Carlos Alberto Medeiros. Mediação: José Manuel (Casulo) e Marcelo Dias (MNU / IPCN). A gravação da transmissão pela RADIO WEB CENSURA LIVRE consta do YouTube no seguinte link: https://www.youtube.com/watch?v=pGOXe83f85k",
+      "imageUrl": "/cronologia/2024/44.jpg",
+      "date": "2024-10-31"
+    },
+    {
+      "title": "2024, Novembro",
+      "desc": "Dia 06 – Participação na comissão organizadora do encontro 'A Literatura Indígena na escola', com Daniel Munduruku e Márcia Kambeba, em parceria com a UFF, o Museu dos Povos Indígenas e outras instituições, sob a coordenação de Ines Petereit representando o Casulo. Local: Auditório Macunaíma, Faculdade de Educação, UFF, campus Gragoatá. Para maiores informações, acesse https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw==",
+      "imageUrl": "/cronologia/2024/45.jpg",
+      "date": "2024-11-06"
     }
    ]
