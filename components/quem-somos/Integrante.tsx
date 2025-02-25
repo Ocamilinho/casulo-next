@@ -9,8 +9,8 @@ type Integrante = {
 
 export default function Integrante({ name, description, imageSrc }: Integrante) {
     return (
-        <div className="flex gap-6 bg-cinza p-5 rounded-2xl">
-            <div className="w-32 h-32 ">
+        <div className="flex md:flex-row flex-col gap-7 bg-cinza p-5 rounded-2xl">
+            <div>
                 <Image 
                     src={imageSrc}
                     width={128} 
