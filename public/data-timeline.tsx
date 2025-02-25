@@ -461,9 +461,11 @@ export const Data = [
     },
     {
       "title": "2024, Março",
-      "desc": "Dia 01 - Participação ativa na CAMPANHA 21 DIAS DE ATIVISMO CONTRA O RACISMO com a realização de POSTAGENS VIRTUAIS por 21 dias consecutivos. Na imagem, nossa homenagem ao Aderaldo Gil, militante histórico do movimento negro e professor de História falecido precocemente em 2023. Para conhecer as demais postagens, acesse: https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw==",
+      "desc": "Dia 01 - Participação ativa na CAMPANHA 21 DIAS DE ATIVISMO CONTRA O RACISMO com a realização de POSTAGENS VIRTUAIS por 21 dias consecutivos. Na imagem, nossa homenagem ao Aderaldo Gil, militante histórico do movimento negro e professor de História falecido precocemente em 2023. Para conhecer as demais postagens, acesse: ",
       "imageUrl": "/cronologia/2024/04.jpg",
-      "date": "2024-03-01"
+      "date": "2024-03-01",
+      "linkUrl": "https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw==",
+      "linkText": "Instagram!",
     },
     {
       "title": "2024, Março",
@@ -508,14 +510,18 @@ export const Data = [
     },
     {
       "title": "2024, Abril",
-      "desc": "Dia 19 – MARCHA DIGITAL ABRIL INDÍGENA, organizada pelo Casulo/GEPECD a partir de diversas postagens sobre a questão indígena nas redes digitais a partir do Instagram. Confira as diversas postagens em: https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw== ",
+      "desc": "Dia 19 – MARCHA DIGITAL ABRIL INDÍGENA, organizada pelo Casulo/GEPECD a partir de diversas postagens sobre a questão indígena nas redes digitais a partir do Instagram. Confira as diversas postagens em:  ",
+      "linkUrl": "https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw==",
+      "linkText": "Clique aqui!",
       "imageUrl": "/cronologia/2024/12.jpg",
       "date": "2024-04-19"
     },
     {
       "title": "2024, Abril",
-      "desc": "Dia 27 – Encontro remoto do GEPECD/Casulo. Debate sobre “Gênero” com base na obra “Sobre o suicídio”, de Karl Marx. Acesse a gravação em: https://mail.google.com/mail/u/2/#label/Grava%C3%A7%C3%B5es/FMfcgzQVzFSJQZcmGljzlNCTSbMnxmXs?projector=1",
-      "imageUrl": "/cronologia/2024/13.jpg",
+      "desc": "Dia 27 – Encontro remoto do GEPECD/Casulo. Debate sobre “Gênero” com base na obra “Sobre o suicídio”, de Karl Marx. Acesse a gravação em: ",
+      "linkUrl": "https://mail.google.com/mail/u/2/#label/Grava%C3%A7%C3%B5es/FMfcgzQVzFSJQZcmGljzlNCTSbMnxmXs?projector=1",
+      "linkText": "Clique aqui!",
+      "imageUrl": "/cronologia/2024/13.png",
       "date": "2024-04-27"
     },
     {
@@ -532,7 +538,9 @@ export const Data = [
     },
     {
       "title": "2024, Maio",
-      "desc": "Dia 25 - Encontro remoto do GEPECD/Casulo. Continuidade do debate sobre “Gênero” com base em Marx e no artigo “Igualdade de gênero”, de Heather Brown. Acesse em https://drive.google.com/file/d/1UOsmn0WUCUKQfa2V1RiI9HSslMVjZX8e/view ",
+      "desc": "Dia 25 - Encontro remoto do GEPECD/Casulo. Continuidade do debate sobre “Gênero” com base em Marx e no artigo “Igualdade de gênero”, de Heather Brown. Acesse em: ",
+      "linkUrl": "https://drive.google.com/file/d/1UOsmn0WUCUKQfa2V1RiI9HSslMVjZX8e/view",
+      "linkText": "Clique aqui!",
       "imageUrl": "/cronologia/2024/16.jpg",
       "date": "2024-05-25"
     },
@@ -586,7 +594,9 @@ export const Data = [
     },
     {
       "title": "2024, Junho",
-      "desc": "Dia 29 - Encontro remoto do GEPECD/Casulo. Primeiro debate sobre o tema “Marx e a democracia”, com leituras/estudo das obras “Sobre a questão judaica” e o artigo de Angela Davis para o livro “Democracia para quem?”. A gravação pode ser acessada em: https://drive.google.com/file/d/1jSIywVtufrqplumhCtV-JEXFGjrIMl-C/view?usp=sharing ",
+      "desc": "Dia 29 - Encontro remoto do GEPECD/Casulo. Primeiro debate sobre o tema “Marx e a democracia”, com leituras/estudo das obras “Sobre a questão judaica” e o artigo de Angela Davis para o livro “Democracia para quem?”. A gravação pode ser acessada em:  ",
+      "linkUrl": "https://drive.google.com/file/d/1jSIywVtufrqplumhCtV-JEXFGjrIMl-C/view?usp=sharing",
+      "linkText": "Clique aqui!",
       "imageUrl": "/cronologia/2024/25.jpg",
       "date": "2024-06-29"
     },
@@ -686,7 +696,9 @@ export const Data = [
     },
     {
       "title": "2024, Setembro",
-      "desc": "Dia 27 – Participação no Caruru da Gratidão, em memória da educadora antirracista Azoilda Loretto Trindade (Zó). Local: Museu Casa Bumba Meu Boi, em Sepetiba, Zona Oeste do Rio de Janeiro. O Coletivo Casulo compôs o Núcleo Gestor na construção da atividade, desde a organização, a logística e o apoio financeiro. O vídeo produzido na ocasião do evento conta com diversos depoimentos, dentre eles os de Tânia Correia e Sergio Oliveira como representantes do Casulo. Pode ser acessado em: https://drive.google.com/file/d/1B6IjOPVPXmBYNkSXfsqtzVFVsvpSMYky/view",
+      "desc": "Dia 27 – Participação no Caruru da Gratidão, em memória da educadora antirracista Azoilda Loretto Trindade (Zó). Local: Museu Casa Bumba Meu Boi, em Sepetiba, Zona Oeste do Rio de Janeiro. O Coletivo Casulo compôs o Núcleo Gestor na construção da atividade, desde a organização, a logística e o apoio financeiro. O vídeo produzido na ocasião do evento conta com diversos depoimentos, dentre eles os de Tânia Correia e Sergio Oliveira como representantes do Casulo. Pode ser acessado em: ",
+      "linkUrl": "https://drive.google.com/file/d/1B6IjOPVPXmBYNkSXfsqtzVFVsvpSMYky/view",
+      "linkText": "Clique aqui!",
       "imageUrl": "/cronologia/2024/41.jpg",
       "date": "2024-09-27"
     },
@@ -704,13 +716,17 @@ export const Data = [
     },
     {
       "title": "2024, Outubro",
-      "desc": "Dia 31 – QUINTAS POLÍTICO-CULTURAIS sobre o tema 'A luta antirracista e os 50 anos do IPCN', com o militante do movimento negro e professor Carlos Alberto Medeiros. Mediação: José Manuel (Casulo) e Marcelo Dias (MNU / IPCN). A gravação da transmissão pela RADIO WEB CENSURA LIVRE consta do YouTube no seguinte link: https://www.youtube.com/watch?v=pGOXe83f85k",
+      "desc": "Dia 31 – QUINTAS POLÍTICO-CULTURAIS sobre o tema 'A luta antirracista e os 50 anos do IPCN', com o militante do movimento negro e professor Carlos Alberto Medeiros. Mediação: José Manuel (Casulo) e Marcelo Dias (MNU / IPCN). A gravação da transmissão pela RADIO WEB CENSURA LIVRE consta do YouTube no seguinte link: ",
+      "linkUrl": "https://www.youtube.com/watch?v=pGOXe83f85k",
+      "linkText": "Clique aqui!",
       "imageUrl": "/cronologia/2024/44.jpg",
       "date": "2024-10-31"
     },
     {
       "title": "2024, Novembro",
-      "desc": "Dia 06 – Participação na comissão organizadora do encontro 'A Literatura Indígena na escola', com Daniel Munduruku e Márcia Kambeba, em parceria com a UFF, o Museu dos Povos Indígenas e outras instituições, sob a coordenação de Ines Petereit representando o Casulo. Local: Auditório Macunaíma, Faculdade de Educação, UFF, campus Gragoatá. Para maiores informações, acesse https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw==",
+      "desc": "Dia 06 – Participação na comissão organizadora do encontro 'A Literatura Indígena na escola', com Daniel Munduruku e Márcia Kambeba, em parceria com a UFF, o Museu dos Povos Indígenas e outras instituições, sob a coordenação de Ines Petereit representando o Casulo. Local: Auditório Macunaíma, Faculdade de Educação, UFF, campus Gragoatá. Para maiores informações, acesse ",
+      "linkUrl": "https://www.instagram.com/casulo.gepecd?igsh=MTN3czhhYjNnc2YzYw==",
+      "linkText": "Clique aqui!",
       "imageUrl": "/cronologia/2024/45.jpg",
       "date": "2024-11-06"
     }

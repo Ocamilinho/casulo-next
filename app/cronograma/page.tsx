@@ -11,6 +11,8 @@ type Timeline = {
   title: string;
   desc: string;
   imageUrl?: string;
+  linkText?: string,
+  linkUrl?: string,
   date: Date;
 };
 
@@ -26,6 +28,8 @@ export default function Cronograma() {
       title: item.title,
       desc: item.desc,
       imageUrl: item.imageUrl,
+      linkText: item.linkText,
+      linkUrl: item.linkUrl,
       date: new Date(item.date),
     })).filter(item => !isNaN(item.date.getTime())) as Timeline[];
 
@@ -84,6 +88,8 @@ export default function Cronograma() {
                 key={item.id} 
                 desc={item.desc}
                 date={item.date}
+                linkText={item.linkText}
+                linkUrl={item.linkUrl}
                 imageUrl={item.imageUrl || ''} 
               />
             ))
