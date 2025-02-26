@@ -21,7 +21,7 @@ export default function Integrante({ name, description, imageSrc }: Integrante) 
             </div>
             <div className="text-branco mt-2 flex flex-col w-4/5">
                 <h1 className="text-2xl font-semibold">{name}</h1>
-                <p className="text-gray-700 mt-2 text-xl">{description}</p>
+                <p className="text-gray-700 mt-2 text-md md:text-xl">{description}</p>
             </div>
         </div>
     );
