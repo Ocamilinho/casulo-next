@@ -57,16 +57,16 @@ export default function Cronograma() {
   return (
     <>
       <Header />
-      <div className="text-center p-10 bg-greve shadow-x">
-        <h2 className="timeline-header__title">Atividades do Coletivo Casulo</h2>
-        <h3 className="timeline-header__subtitle">Cursos, debates, rodas de conversa</h3>
+      <div className="flex flex-col gap-3 text-branco text-center p-10 bg-greve shadow-x">
+        <h2 className="text-3xl md:text-4xl font-bold">Atividades do Coletivo Casulo</h2>
+        <h3 className="text-lg md:text-xl font-light">Cursos, debates, rodas de conversa</h3>
       </div>
       <div className="p-4 bg-cinza">
         <ul className="flex gap-4 justify-center flex-wrap">
           {years.map((year) => (
             <li
               key={year}
-              className={`text-xl text-branco cursor-pointer ${selectedYear === year ? 'font-bold' : ''}`}
+              className={`text-xl text-branco cursor-pointer transition-all ${selectedYear === year ? 'font-bold' : 'font-normal'}`}
               onClick={() => filterData(year)}
             >
               {year}

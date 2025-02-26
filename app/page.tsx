@@ -28,7 +28,7 @@ export default function Home() {
         <Image src="/images/paulo-freire-pb.png" width="600" height={0} alt="paulofreire" id="paulofreire-d3" />
         <div className="flex justify-between p-8 gap-8 bg-preto flex-col flex-wrap col-span-2 ">
           <div className="flex flex-col flex-nowrap gap-8">
-            <h1 className="text-2xl md:text-4xl text-branco text-bold">Quem foi Paulo Freire?</h1>
+            <h1 className="text-3xl md:text-4xl text-branco font-bold">Quem foi Paulo Freire?</h1>
             <Divider />
             <p className=" text-lg md:text-xl text-branco">Paulo Freire (1921-1997) é Patrono da Educação Brasileira e autor da “Pedagogia do Oprimido”. Conhecido pelo método de alfabetização de adultos que leva seu nome, Freire desenvolveu um pensamento pedagógico que defende que o objetivo maior da educação é conscientizar o estudante. Seu trabalho como educador mudou a forma de alfabetização dentro e fora do Brasil, e ao tratar o processo educacional como um ato de conscientização, Paulo Freire acabou sendo preso, acusado de “subversão”, pela ditadura militar brasileira (1964 – 1985), e após 72 dias em cárcere foi um dos primeiros brasileiros exilados.</p>
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
           <h2 className="text-lg md:text-xl text-branco">Principais Propostas</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-stretch p-5">
+        <div className="flex flex-wrap gap-5 items-center justify-center p-5">
           <Card title="Minicurso" subTitle="Paulo Freire e a nossa escola: prática educativa e realidade educacional" number="1" urlRef="escola/minicurso" />
           <Card title="Curso de extensão africanidades" subTitle="História, cultura e contribuições dos povos africanos na sociedade brasileira" number="2" urlRef="escola/cursodeextensao" />
           <Card title="Pré-técnico" subTitle="Preparação para o ensino técnico: fundamentos e desenvolvimento de habilidades" number="3" urlRef="escola/pretecnico" />
