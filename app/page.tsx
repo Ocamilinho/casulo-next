@@ -4,30 +4,33 @@ import Divider from "@/components/Divider";
 
 import Image from "next/image";
 import Link from "next/link";
+import Card from "@/components/Card";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <div className="p-20 bg-cover flex flex-col items-center bg-greve">
+      <div className="p-10 md:p-20 bg-cover flex flex-col items-center bg-greve">
         <div className="flex items-center flex-col flex-wrap gap-11 ">
-          <h1 className="text-4xl text-branco text-center"> A corrente do pensamento!</h1>
+          <h1 className="text-3xl md:text-4xl text-branco text-center font-semibold">Projetos de Educação Popular e Formação Política</h1>
           <Divider />
-          <p className="text-xl text-branco text-justify md:text-center">(...) O fato de uma multidão de seres humanos seja conduzida a pensar coerentemente e de
-            maneira unitária a realidade presente é um fato "filosófico" bem mais importante e "original" do que a
-            descoberta, por parte de um "gênio filosófico", de uma nova verdade que permaneça como patrimônio de
-            pequenos grupos intelectuais"</p>
+          <div className="text-lg md:text-xl text-branco text-justify md:text-center flex flex-col gap-5">
+            <p>O Coletivo Casulo, enquanto organização militante, tem se constituído numa práxis voltada para a articulação política, para a militância e para a apresentação de projetos voltados para a educação popular e para a formação política. Nesse sentido, nos autodefinimos como uma <span className="font-bold">ESCOLA DE FORMAÇÃO</span> em processo de construção. Apresentamos nesta página uma síntese desses trabalhos. Caso haja interesse em dialogar conosco, visando à parceria dos projetos citados ou similares, não deixe de entrar em contato com a nossa Coordenação. </p>
+            <p>Importante registrar que todas as nossas construções são coletivas e de acordo com a realidade específica de cada movimento social, cada região, e em consonância com a leitura política necessária a se fazer da conjuntura, seja local, regional ou nacional. Nossa metodologia de trabalho é dialógica e política e tem como base e inspiração a pedagogia elaborada historicamente por Paulo Freire. Assim, <span className="underline underline-offset-4">todas</span> as propostas de cursos citadas neste site são planejadas coletivamente e avaliadas permanentemente por Coordenações Político-Pedagógicas (CPP) responsáveis pela aplicação e desenvolvimento do curso, durante todas as suas etapas de execução. As CPP são constituídas de acordo com a realidade de cada curso, envolvendo, democraticamente, representantes indicados por todos os coletivos e educadoras/es envolvidas/os.
+            </p>
+          </div>
+          
           <Link href="/sobreColetivo"><button className="p-5 w-56 text-xl rounded-lg border-0 text-branco bg-preto shadow-lg hover:-translate-y-3 transition-all">Saiba Mais!</button></Link>
         </div>
       </div>
 
       <div className="flex lg:flex-row flex-col shadow-2xl">
-        <Image src="/paulo-freire-pb.png" width="600" height={0} alt="paulofreire" id="paulofreire-d3" />
+        <Image src="/images/paulo-freire-pb.png" width="600" height={0} alt="paulofreire" id="paulofreire-d3" />
         <div className="flex justify-between p-8 gap-8 bg-preto flex-col flex-wrap col-span-2 ">
           <div className="flex flex-col flex-nowrap gap-8">
-            <h1 className="text-4xl text-branco">Quem foi Paulo Freire?</h1>
+            <h1 className="text-2xl md:text-4xl text-branco text-bold">Quem foi Paulo Freire?</h1>
             <Divider />
-            <p className="text-xl text-branco">Paulo Freire (1921-1997) é Patrono da Educação Brasileira e autor da “Pedagogia do Oprimido”. Conhecido pelo método de alfabetização de adultos que leva seu nome, Freire desenvolveu um pensamento pedagógico que defende que o objetivo maior da educação é conscientizar o estudante. Seu trabalho como educador mudou a forma de alfabetização dentro e fora do Brasil, e ao tratar o processo educacional como um ato de conscientização, Paulo Freire acabou sendo preso, acusado de “subversão”, pela ditadura militar brasileira (1964 – 1985), e após 72 dias em cárcere foi um dos primeiros brasileiros exilados.</p>
+            <p className=" text-lg md:text-xl text-branco">Paulo Freire (1921-1997) é Patrono da Educação Brasileira e autor da “Pedagogia do Oprimido”. Conhecido pelo método de alfabetização de adultos que leva seu nome, Freire desenvolveu um pensamento pedagógico que defende que o objetivo maior da educação é conscientizar o estudante. Seu trabalho como educador mudou a forma de alfabetização dentro e fora do Brasil, e ao tratar o processo educacional como um ato de conscientização, Paulo Freire acabou sendo preso, acusado de “subversão”, pela ditadura militar brasileira (1964 – 1985), e após 72 dias em cárcere foi um dos primeiros brasileiros exilados.</p>
           </div>
         </div>
 
@@ -35,40 +38,15 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-center flex-col flex-wrap pb-8 bg-preto" id="d4">
         <div className="flex items-center justify-center flex-col flex-nowrap gap-2 my-8">
-          <h1 className="text-4xl text-branco">Escola de Formação</h1>
-          <h2 className="text-xl text-branco">Principais Propostas</h2>
+          <h1 className="text-3xl md:text-4xl text-branco font-bold">Escola de Formação</h1>
+          <h2 className="text-lg md:text-xl text-branco">Principais Propostas</h2>
         </div>
 
-
-        <div className="flex items-center flex-row gap-4">
-          <ul className="flex items-center justify-center gap-6 flex-row flex-wrap">
-            <Link href="/proposta1" className="ancora-card">
-              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl min-h-80 w-80 md:w-96 md:h-96 hover:-translate-y-3 transition-all">
-                <span className="flex items-center justify-center w-16 h-16 text-5xl  rounded-full text-preto bg-branco ">1</span>
-                <p className="text-3xl mt-2 text-branco break-word ">A arte e a educação decolonial</p>
-                <Divider />
-                <p className="text-xl m-2 text-branco ">Descolonizar a arte e educação é valorizar saberes e culturas diversas</p>
-              </li>
-            </Link>
-
-            <Link href="/proposta2" className="ancora-card">
-              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl min-h-80 w-80 md:w-96 md:h-96  hover:-translate-y-3 transition-all">
-                <span className="flex items-center justify-center w-16 h-16 text-5xl  rounded-full text-preto bg-branco ">2</span>
-                <p className="text-3xl mt-2 text-branco break-word ">Construindo um projeto de economia solidária</p>
-                <Divider />
-                <p className="text-xl m-2 text-branco ">Juntos, criamos oportunidades e fortalecemos a economia solidária.</p>
-              </li>
-            </Link>
-
-            <Link href="/proposta3" className="ancora-card">
-              <li className="flex p-5 flex-col flex-nowrap gap-3 bg-rosa rounded-2xl min-h-80 w-80 md:w-96 md:h-96 hover:-translate-y-3 transition-all">
-                <span className="flex items-center justify-center w-16 h-16 text-5xl  rounded-full text-preto bg-branco ">3</span>
-                <p className="text-3xl mt-2 text-branco break-word ">Justiça,direito e periferias</p>
-                <Divider />
-                <p className="text-xl m-2 text-branco ">Assim como o acesso à Justiça, o direito nas periferias é limitado.</p>
-              </li>
-            </Link>
-          </ul>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-stretch p-5">
+          <Card title="Minicurso" subTitle="Paulo Freire e a nossa escola: prática educativa e realidade educacional" number="1" urlRef="escola/minicurso" />
+          <Card title="Curso de extensão africanidades" subTitle="História, cultura e contribuições dos povos africanos na sociedade brasileira" number="2" urlRef="escola/cursodeextensao" />
+          <Card title="Pré-técnico" subTitle="Preparação para o ensino técnico: fundamentos e desenvolvimento de habilidades" number="3" urlRef="escola/pretecnico" />
+          <Card title="Formação política" subTitle="Consciência cidadã e participação ativa na sociedade" number="4" urlRef="escola/formacaopolitica" />
         </div>
       </div>
       <Footer />
