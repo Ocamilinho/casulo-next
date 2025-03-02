@@ -43,7 +43,6 @@ export default function Cronograma() {
   useEffect(() => {
     if (selectedYear !== null) {
       const newFilteredData = timelineData.filter(item => item.date.getFullYear() === selectedYear);
-      console.log(`Filtered data for year ${selectedYear}:`, newFilteredData); // Debug log
       setFilteredData(newFilteredData);
     } else {
       setFilteredData(timelineData);
@@ -58,8 +57,8 @@ export default function Cronograma() {
     <>
       <Header />
       <div className="flex flex-col gap-3 text-branco text-center p-10 bg-greve shadow-x">
-        <h2 className="text-3xl md:text-4xl font-bold">Atividades do Coletivo Casulo</h2>
-        <h3 className="text-lg md:text-xl font-light">Cursos, debates, rodas de conversa</h3>
+        <h2 className="text-2xl md:text-4xl font-bold">Atividades do Coletivo Casulo</h2>
+        <h3 className="text-md md:text-xl font-light">Cursos, debates, rodas de conversa</h3>
       </div>
       <div className="p-4 bg-cinza">
         <ul className="flex gap-4 justify-center flex-wrap">
@@ -80,7 +79,7 @@ export default function Cronograma() {
           </li>
         </ul>
       </div>
-      <div className="w-full relative bg-fixed bg-cover bg-preto p-16 min-h-screen" id="timeline-1">
+      <div className="w-full relative bg-fixed bg-cover bg-preto p-8 min-h-screen" id="timeline-1">
         <div className="flex flex-wrap flex-col-reverse relative gap-20 flex-grow">
           {filteredData.length > 0 ? (
             filteredData.map((item) => (

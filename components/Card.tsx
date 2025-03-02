@@ -15,10 +15,10 @@ export default function Card({title, subTitle, number, urlRef}: Card){
                         <span className="flex-shrink-0 flex items-center justify-center w-14 h-14 text-4xl rounded-full text-preto bg-branco border-2 border-branco">
                             {number}
                         </span>
-                        <h1 className="text-2xl font-bold text-branco tracking-wide">{title}</h1>
+                        <h1 className="text-xl md:text-2xl font-bold text-branco tracking-wide">{title}</h1>
                     </div>
                     <Divider />
-                    <p className="text-xl m-2 text-branco ">{subTitle}</p>
+                    <p className=" text-lg md:text-xl m-2 text-branco ">{subTitle}</p>
               </div>
             </Link>
         </div>

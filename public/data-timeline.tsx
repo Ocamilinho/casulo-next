@@ -24,7 +24,8 @@ export const Data = [
     {
       "title": "2019, Setembro",
       "desc": "Dia 21 – Debate sobre “Cristianismo e o resgate da dignidade na política”, com a participação do pastor e pesquisador Max Cassin, do bispo auxiliar diocesano Dom Luiz Antonio Ricci e da escritora Ana Helena Tavares lançando sua obra sobre Dom Pedro Casaldáliga – Salão paroquial da Igreja de São Lourenço, Ponto Cem Réis, Niterói..",
-      "date": "2019-09-10"
+      "date": "2019-09-10",
+      "imageUrl": "/cronograma/2019/cristianismo.png"
     },
     {
       "title": "Outubro, 2019",

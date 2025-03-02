@@ -9,7 +9,7 @@ type Integrante = {
 
 export default function Integrante({ name, description, imageSrc }: Integrante) {
     return (
-        <div className="flex md:flex-row flex-col gap-7 bg-cinza p-5 rounded-2xl">
+        <div className="flex md:flex-row flex-col gap-2 md:gap-7 bg-cinza p-5 rounded-2xl">
             <div>
                 <Image 
                     src={imageSrc}
